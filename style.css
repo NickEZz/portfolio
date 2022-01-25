@@ -1,4 +1,4 @@
-/*  import google fonts */
+/* fontit */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+
 section{
     padding: 100px 0;
 }
@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: blue;
+    color: rgb(0, 102, 255);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: blue;
+    background: rgb(0, 102, 255);
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: blue;
+    color: rgb(0, 102, 255);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: blue;
+    color: rgb(0, 102, 255);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: blue;
+    background: rgb(0, 102, 255);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -193,23 +193,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: blue;
+    color: rgb(0, 102, 255);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: blue;
+    background: rgb(0, 102, 255);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 102, 255);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: blue;
+    color: rgb(0, 102, 255);
     background: none;
 }
 
@@ -235,25 +235,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: blue;
+    color: rgb(0, 102, 255);
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: blue;
+    background: rgb(0, 102, 255);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 102, 255);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: blue;
+    color: rgb(0, 102, 255);
     background: none;
 }
 
@@ -290,7 +290,7 @@ section .title::after{
 }
 
 .skills .skills-content .left a:hover{
-    color: blue;
+    color: rgb(0, 102, 255);
     background: #222;
 }
 .skills .skills-content .right .bars{
@@ -318,7 +318,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: blue;
+    background: rgb(0, 102, 255);
 }
 .skills-content .right .csharp::before{
     width: 70%;
@@ -326,7 +326,7 @@ section .title::after{
 .skills-content .right .unity::before{
     width: 65%;
 }
-.skills-content .right .js::before{
+.skills-content .right .html::before{
     width: 40%;
 }
 .skills-content .right .blender::before{
@@ -350,7 +350,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .portfolio .carousel .card:hover{
-    background: blue;
+    background: rgb(0, 102, 255);
 }
 .portfolio .carousel .card .box{
     display: flex;
@@ -372,7 +372,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid blue;
+    border: 5px solid rgb(0, 102, 255);
     transition: all 0.3s ease;
 }
 .portfolio .carousel .card:hover img{
@@ -388,7 +388,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid blue!important;
+    border: 2px solid rgb(0, 102, 255)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -397,13 +397,11 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: blue!important;
+    background: rgb(0, 102, 255)!important;
 }
 
 /* contact section styling */
-.contact .title::after{
-    content: "get in touch";
-}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -428,7 +426,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: blue;
+    color: rgb(0, 102, 255);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -487,12 +485,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: blue;
-  border: 2px solid blue;
+  background: rgb(0, 102, 255);
+  border: 2px solid rgb(0, 102, 255);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: blue;
+  color: rgb(0, 102, 255);
   background: none;
 }
 /* footer section styling */
@@ -503,7 +501,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: blue;
+    color: rgb(0, 102, 255);
     text-decoration: none;
 }
 footer span a:hover{
